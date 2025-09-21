@@ -8,6 +8,7 @@ function App() {
     dataUrl: "/Fall-Guys-Playable-Online/build/Build/WebglFallGuy.data",
     frameworkUrl: "/Fall-Guys-Playable-Online/build/Build/WebglFallGuy.framework.js",
     codeUrl: "/Fall-Guys-Playable-Online/build/Build/WebglFallGuy.wasm",
+    streamingAssetsUrl: "/Fall-Guys-Playable-Online/build/Build/StreamingAssets",
   });
 
   const [windowDimensions, setWindowDimensions] = useState({
