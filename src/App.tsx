@@ -4,10 +4,10 @@ import { useEffect, useState } from "react";
 
 function App() {
   const { unityProvider } = useUnityContext({
-    loaderUrl: "/Fall-Guys-Playable-Online/build/Webgl.loader.js",
-    dataUrl: "/Fall-Guys-Playable-Online/build/Webgl.data",
-    frameworkUrl: "/Fall-Guys-Playable-Online/build/Webgl.framework.js",
-    codeUrl: "/Fall-Guys-Playable-Online/build/Webgl.wasm",
+    loaderUrl: "/Fall-Guys-Playable-Online/build/Build/WebglFallGuy.loader.js",
+    dataUrl: "/Fall-Guys-Playable-Online/build/Build/WebglFallGuy.data",
+    frameworkUrl: "/Fall-Guys-Playable-Online/build/Build/WebglFallGuy.framework.js",
+    codeUrl: "/Fall-Guys-Playable-Online/build/Build/WebglFallGuy.wasm",
   });
 
   const [windowDimensions, setWindowDimensions] = useState({
